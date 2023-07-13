@@ -38,13 +38,29 @@ input {
     height: 35px;
     padding: 5px;
     margin-top: 10px;
+    outline: none;
+}
+
+input:hover {
+border-color: rgb(114, 180, 228);
 }
 
 button {
     width: 650px;
     height: 35px;
     margin-top: 50px;
-    color: white;
     border: none;
+    outline: none;
     background: linear-gradient(135deg, rgb(114, 180, 228), rgb(155, 91, 185)) ;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
