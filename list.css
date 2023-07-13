@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, rgb(114, 180, 228), rgb(155, 91, 185))
+}
+
+.card {
+    min-height: 100vh;
+    width: 700px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+hr {
+    width: 35px;
+    margin-top: 2px;
+    height: 4px;
+    background: linear-gradient(135deg, rgb(114, 180, 228), rgb(155, 91, 185)) ;
+}
