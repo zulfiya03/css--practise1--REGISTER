@@ -13,7 +13,7 @@ body {
 }
 
 .card {
-    width: 800px;
+    width: 700px;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
@@ -30,7 +30,7 @@ hr {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 50px;
 }
 
 input {
@@ -38,4 +38,13 @@ input {
     height: 35px;
     padding: 5px;
     margin-top: 10px;
+}
+
+button {
+    width: 650px;
+    height: 35px;
+    margin-top: 50px;
+    color: white;
+    border: none;
+    background: linear-gradient(135deg, rgb(114, 180, 228), rgb(155, 91, 185)) ;
 }
